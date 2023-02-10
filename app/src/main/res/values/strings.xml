@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">20110463_Nguyễn Văn Giang</string>
+    <string name="hello_world">Xin chào!!!!</string>
+    <string name="user_Name">User Name</string>
+    <string name="name_User">Họ tên</string>
+    <string name="example_Name_User">Nguyễn Văn A</string>
+    <string name="name_Class">Lớp học phần</string>
+    <string name="example_Name_Class">2011CL2</string>
+    <string name="password">Mật khẩu</string>
+    <string name="example_Password">********</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="example_Phone">0399999999</string>
+    <string name="phone_No.">Phone No.</string>
+    <string name="email_Id">Email Id</string>
+</resources>
