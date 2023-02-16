@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lab2_week2);
+
     }
 
     public void calculate(View view) {
@@ -21,14 +22,9 @@ public class MainActivity extends AppCompatActivity {
         EditText inputB = (EditText)findViewById(R.id.InputB);
         EditText output = (EditText)findViewById(R.id.Output);
         Button btnCal = (Button)findViewById(R.id.calculate);
-        btnCal.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                int a = Integer.parseInt(inputA.getText().toString());
-                int b = Integer.parseInt(inputB.getText().toString());
-                String c = String.valueOf(a+b);
-                output.setText(c);
-            }
-        });
+        int a = Integer.parseInt((inputA.getText().toString()));
+        int b = Integer.parseInt(inputB.getText().toString());
+        String c = String.valueOf(a+b);
+        output.setText(c);
     }
 }
